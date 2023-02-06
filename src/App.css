@@ -1,0 +1,112 @@
+.main{
+  margin: 5px;
+  background-image: linear-gradient(15deg, #77d7f2 0%, #80d0c7 100%);  
+  }
+a{
+margin: 10px;
+padding: 5px;
+text-decoration: none;
+color: white;
+font-family: 'Abril Fatface', cursive;
+border: 2px solid white;
+border-radius: 10px;
+}
+a:hover{
+  color: rgb(198, 40, 90);
+}
+h1{
+  text-align: center;
+  font-family: 'Zilla Slab', serif;
+  color:rgb(20, 23, 68);
+}
+.nav{  
+ padding: 10px;
+  background-color: black;
+    
+}
+.App {
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.addemp{
+  margin: 10px;
+  height: 100%;
+  
+ }
+ .logo{
+  width: 25px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left: 670px;
+  margin-bottom: 30px;
+  align-items: center;
+     
+ }
+
+label{
+position: relative;
+left: 35%;
+  font-weight: bold;
+display: flex;
+  margin-bottom: 5px;
+}
+input[type='text'],[type='email'],[type='date'],[type="number"]{
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  color:#555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+}
+select{
+  display: block;
+  width: 430px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  color:#555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+.form-control{
+  margin-bottom: 20;
+}
+.error{
+  color:red
+}
+.btn{
+  width: 250px;
+}
+table {
+  font-family: arial, sans-serif;
+  /* border-collapse: collapse; */
+  width: 50%;
+  border:"2px solid black";
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+th{
+background-color: rgb(141, 141, 227);    
+}
